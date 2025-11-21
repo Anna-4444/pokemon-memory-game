@@ -173,7 +173,7 @@ const App = () => {
       
       <main>
         {gameOver && <GameOverModal message={message} handlePlayAgain={handlePlayAgain}/>}
-
+        
         <GameOptions 
           handleGameMode={handleGameMode} 
           count={count} 
